@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     tools {
-        nodejs "Node25.2.1" // Configura una instalación de Node.js en Jenkins
-        dockerTool 'DockerTool'  // Se comenta para usar el cliente Docker instalado en el sistema (evita descargar la versión obsoleta 1.29)
+        nodejs "Node25" // Configura una instalación de Node.js en Jenkins
+        // dockerTool 'DockerTool'  // Se comenta para usar el cliente Docker instalado en el sistema (evita descargar la versión obsoleta 1.29)
     }
 
     stages {
